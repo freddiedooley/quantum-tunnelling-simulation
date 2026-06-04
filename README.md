@@ -1,3 +1,4 @@
+# Resonant Tunnelling in a One-Dimensional Double-Barrier System
 ### A Time-Dependent Wave-Packet Simulation | Python · NumPy · SciPy
 
 ---
