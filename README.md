@@ -1,4 +1,3 @@
-# Resonant Tunnelling in a One-Dimensional Double-Barrier System
 ### A Time-Dependent Wave-Packet Simulation | Python · NumPy · SciPy
 
 ---
@@ -59,9 +58,15 @@ This ensures slower (low k₀) packets have sufficient time to interact with and
 
 **Validation** — The numerical solver was benchmarked against the exact analytical solution for a freely propagating Gaussian packet. Maximum pointwise deviation in |ψ|² remained below 3.5 × 10⁻³, with total probability conserved to machine precision.
 
-**Resonant trapping** — At resonant energies, the well probability P_mid(t) rises sharply to ~0.21 before decaying on a timescale consistent with tunnelling-limited escape from a metastable state. Off-resonance, the peak well population is an order of magnitude smaller.
+![Validation against analytical free-packet solution](fig1_validation.jpeg)
+
+**Resonant trapping** — At resonant energies, the well probability P_mid(t) rises sharply to ~0.21 before decaying on a timescale consistent with tunnelling-limited escape from a metastable state. Off-resonance, the peak well population is an order of magnitude smaller. Real-space snapshots show the standing-wave pattern building inside the well at resonance.
+
+![Real-space snapshots at a resonant incident wavenumber](fig3_snapshots.jpeg)
 
 **Transmission spectrum** — An energy scan over incident wavenumber reveals several narrow sub-barrier transmission peaks, characteristic of quasi-bound states in the well. A high-resolution scan of one peak produces a Lorentzian line shape consistent with the Breit–Wigner form, yielding resonance energy E₀ ≈ 2.05 and width Γ ≈ 0.76 in natural units.
+
+![Transmission spectrum T(k0)](fig6_transmission_spectrum.jpeg)
 
 ---
 
@@ -115,3 +120,4 @@ The resonant tunnelling behaviour simulated here is directly relevant to:
 - **Quantum well structures** in photonics and optoelectronics
 - **Signal processing** — the Lorentzian/Breit-Wigner resonance lineshape appears widely in spectroscopy and filter design
 - **NDT signal analysis** — resonance identification and Lorentzian fitting are standard techniques for characterising defect signatures in acoustic and ultrasonic inspection data
+E.md…]()
