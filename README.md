@@ -117,7 +117,7 @@ The simulation uses natural units (ℏ = m = 1) throughout to avoid floating poi
 ## Connections to Real-World Applications
 
 The resonant tunnelling behaviour simulated here is directly relevant to:
+
 - **Resonant tunnelling diodes (RTDs)** — semiconductor devices that exploit quasi-bound states for high-frequency switching
 - **Quantum well structures** in photonics and optoelectronics
 - **Signal processing** — the Lorentzian/Breit-Wigner resonance lineshape appears widely in spectroscopy and filter design
-- **NDT signal analysis** — resonance identification and Lorentzian fitting are standard techniques for characterising defect signatures in acoustic and ultrasonic inspection data
